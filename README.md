@@ -1,7 +1,7 @@
 # ViSuM
 Visuelle Suche nach Markenkennzeichen
 
-!(https://github.com/bastie/ViSuM/blob/main/Bilder/screenshot.jpg?raw=true)
+![Screenshot](https://github.com/bastie/ViSuM/blob/main/Bilder/screenshot.jpg?raw=true)
 
 **ViSuM** ist eine Referenzimplementation für eine *ViSA* (visual search 
 application) auf KI-Basis, welche im Sinne eines proof of expenses erstellt 
