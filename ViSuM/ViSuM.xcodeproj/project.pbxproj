@@ -1,0 +1,394 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		484A25E62A47256E008097EE /* BusinessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484A25E52A47256E008097EE /* BusinessView.swift */; };
+		484A25E82A472D2F008097EE /* Workflow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484A25E72A472D2F008097EE /* Workflow.swift */; };
+		484A25EA2A472DEA008097EE /* LogoClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 484A25E92A472DEA008097EE /* LogoClassifier.mlmodel */; };
+		484A25F32A48A287008097EE /* Vorhersage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484A25F22A48A287008097EE /* Vorhersage.swift */; };
+		48B6A1F42A44936000E176B3 /* ViSuMApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48B6A1F32A44936000E176B3 /* ViSuMApp.swift */; };
+		48B6A1F62A44936000E176B3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48B6A1F52A44936000E176B3 /* ContentView.swift */; };
+		48B6A1F82A44936100E176B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48B6A1F72A44936100E176B3 /* Assets.xcassets */; };
+		48B6A1FB2A44936100E176B3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48B6A1FA2A44936100E176B3 /* Preview Assets.xcassets */; };
+		48B6A2022A45D42E00E176B3 /* BusinessModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48B6A2012A45D42E00E176B3 /* BusinessModel.swift */; };
+		48B6A2042A45E7DC00E176B3 /* CameraPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48B6A2032A45E7DC00E176B3 /* CameraPicker.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		484A25E52A47256E008097EE /* BusinessView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessView.swift; sourceTree = "<group>"; };
+		484A25E72A472D2F008097EE /* Workflow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Workflow.swift; sourceTree = "<group>"; };
+		484A25E92A472DEA008097EE /* LogoClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = LogoClassifier.mlmodel; sourceTree = "<group>"; };
+		484A25F22A48A287008097EE /* Vorhersage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vorhersage.swift; sourceTree = "<group>"; };
+		48B6A1F02A44936000E176B3 /* ViSuM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViSuM.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		48B6A1F32A44936000E176B3 /* ViSuMApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViSuMApp.swift; sourceTree = "<group>"; };
+		48B6A1F52A44936000E176B3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		48B6A1F72A44936100E176B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		48B6A1FA2A44936100E176B3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		48B6A2012A45D42E00E176B3 /* BusinessModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessModel.swift; sourceTree = "<group>"; };
+		48B6A2032A45E7DC00E176B3 /* CameraPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraPicker.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		48B6A1ED2A44936000E176B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		484A25EB2A472DFD008097EE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				484A25E92A472DEA008097EE /* LogoClassifier.mlmodel */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		484A25EC2A472E3D008097EE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				484A25E52A47256E008097EE /* BusinessView.swift */,
+				48B6A1F52A44936000E176B3 /* ContentView.swift */,
+				48B6A2032A45E7DC00E176B3 /* CameraPicker.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		484A25EF2A472ECC008097EE /* Business */ = {
+			isa = PBXGroup;
+			children = (
+				48B6A2012A45D42E00E176B3 /* BusinessModel.swift */,
+				484A25F22A48A287008097EE /* Vorhersage.swift */,
+				484A25E72A472D2F008097EE /* Workflow.swift */,
+			);
+			name = Business;
+			sourceTree = "<group>";
+		};
+		48B6A1E72A44936000E176B3 = {
+			isa = PBXGroup;
+			children = (
+				48B6A1F22A44936000E176B3 /* ViSuM */,
+				48B6A1F12A44936000E176B3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		48B6A1F12A44936000E176B3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				48B6A1F02A44936000E176B3 /* ViSuM.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		48B6A1F22A44936000E176B3 /* ViSuM */ = {
+			isa = PBXGroup;
+			children = (
+				484A25EF2A472ECC008097EE /* Business */,
+				484A25EC2A472E3D008097EE /* Views */,
+				484A25EB2A472DFD008097EE /* Model */,
+				48B6A1F32A44936000E176B3 /* ViSuMApp.swift */,
+				48B6A1F72A44936100E176B3 /* Assets.xcassets */,
+				48B6A1F92A44936100E176B3 /* Preview Content */,
+			);
+			path = ViSuM;
+			sourceTree = "<group>";
+		};
+		48B6A1F92A44936100E176B3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				48B6A1FA2A44936100E176B3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		48B6A1EF2A44936000E176B3 /* ViSuM */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48B6A1FE2A44936100E176B3 /* Build configuration list for PBXNativeTarget "ViSuM" */;
+			buildPhases = (
+				48B6A1EC2A44936000E176B3 /* Sources */,
+				48B6A1ED2A44936000E176B3 /* Frameworks */,
+				48B6A1EE2A44936000E176B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ViSuM;
+			productName = ViSuM;
+			productReference = 48B6A1F02A44936000E176B3 /* ViSuM.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		48B6A1E82A44936000E176B3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					48B6A1EF2A44936000E176B3 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 48B6A1EB2A44936000E176B3 /* Build configuration list for PBXProject "ViSuM" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 48B6A1E72A44936000E176B3;
+			productRefGroup = 48B6A1F12A44936000E176B3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				48B6A1EF2A44936000E176B3 /* ViSuM */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		48B6A1EE2A44936000E176B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48B6A1FB2A44936100E176B3 /* Preview Assets.xcassets in Resources */,
+				48B6A1F82A44936100E176B3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		48B6A1EC2A44936000E176B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48B6A1F62A44936000E176B3 /* ContentView.swift in Sources */,
+				484A25E62A47256E008097EE /* BusinessView.swift in Sources */,
+				48B6A1F42A44936000E176B3 /* ViSuMApp.swift in Sources */,
+				48B6A2022A45D42E00E176B3 /* BusinessModel.swift in Sources */,
+				484A25F32A48A287008097EE /* Vorhersage.swift in Sources */,
+				484A25EA2A472DEA008097EE /* LogoClassifier.mlmodel in Sources */,
+				484A25E82A472D2F008097EE /* Workflow.swift in Sources */,
+				48B6A2042A45E7DC00E176B3 /* CameraPicker.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		48B6A1FC2A44936100E176B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Please let visual search application using your camera photo.";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		48B6A1FD2A44936100E176B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Please let visual search application using your camera photo.";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		48B6A1FF2A44936100E176B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ViSuM/Preview Content\"";
+				DEVELOPMENT_TEAM = P42FSG7L2S;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = biz.ritter.ViSuM;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		48B6A2002A44936100E176B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ViSuM/Preview Content\"";
+				DEVELOPMENT_TEAM = P42FSG7L2S;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = biz.ritter.ViSuM;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		48B6A1EB2A44936000E176B3 /* Build configuration list for PBXProject "ViSuM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48B6A1FC2A44936100E176B3 /* Debug */,
+				48B6A1FD2A44936100E176B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48B6A1FE2A44936100E176B3 /* Build configuration list for PBXNativeTarget "ViSuM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48B6A1FF2A44936100E176B3 /* Debug */,
+				48B6A2002A44936100E176B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 48B6A1E82A44936000E176B3 /* Project object */;
+}
